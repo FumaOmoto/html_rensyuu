@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+div#wrap {
+    width: 100%;
+    background-color: rgb(206, 204, 204);
+}
+div.section-inner {
+    padding: 0 25px;
+    margin: 0 auto;
+    justify-content: space-between;
+}    
+#menu {
+    display: flex;
+    list-style: none;
+}
+ul {
+    margin: 0;
+}
+
+li {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+div.header {
+    padding: 40px 0px;
+    background-color: rgb(146, 143, 143);
+}
+div.nav {
+    background-color: darkgray;
+    margin: 0;
+    padding: 0;
+}
+div.body-content{
+    padding: 40px 0;
+    background-color: white;
+}
+div.thirds-clearfix{
+    display: flex;
+    justify-content: space-between;
+}
+div.one-third{
+    width: 30%;
+    margin-right: 30px;
+}
+div.one-third_2{
+    width: 30%;
+    margin-right: 30px;
+}
+div.one-third_3{
+    width: 30%;
+}
+img {
+    width: 100%;
+}
+div.primary-section {
+    display: flex;
+}
+div.ic{
+    background-color: aqua;
+    padding: 0;
+    margin: 20px;
+}
+div.nv{
+    background-color: bisque;
+    padding: 0;
+    margin: 20px;
+}
+div.hello > p {
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+h4{
+    margin: 0;
+    padding: 0;
+}
+div.footer {
+    background-color: #3f3f3f;
+    color: #FFF;
+    padding: 15px 0;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+div.thirds-clearfix {
+    display: block;
+}
+div.thirds-clearfix > div{
+    width: 100%;
+}
+
+body {
+    color: aquamarine;
+}
